@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JogEduc</title>
+    <link rel="icon" type="image/x-icon" href="img/logo-semfundo.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Para evitar barras de rolagem horizontais */
+        }
+
+        .ocupacao {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            padding: 0 20px; /* Adicione algum espaçamento para melhor visualização */
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 25%;
+        }
+
+        .redes-sociais {
+            width: 25%;
+            text-align: right;
+        }
+
+        .redes-sociais ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .redes-sociais ul li {
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .menu-principal {
+            width: 100%;
+            box-sizing: border-box;
+            background-color: #f1f1f1; /* Adicione uma cor de fundo para melhor visualização */
+            padding: 10px;
+        }
+
+        .menu {
+            width: 60%;
+            float: left;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            margin-right: 10px;
+            
+        }
+        .menu ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            padding-left: 5px;
+            margin-left: 75px;
+        }
+
+        .search {
+            width: 40%;
+            float: right;
+            text-align: center;
+            height: 30px;
+            
+        }
+
+        .busca input {
+            width: 70%; /* Adapte conforme necessário */
+            height: 30px;
+            padding-left: 30px;
+            background-image: url('/img/searchicon.png');
+            background-repeat: no-repeat;
+            background-size: 20px;
+            background-position: 96%;
+            border: 2px solid gray;
+        }
+        .busca  input::placeholder{
+            font-size: 17px;
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="ocupacao">
+        <div class="logo">
+            <img src="img/logo.jpeg" style="height: 60px; width: 60px;">
+        </div>
+        <div class="redes-sociais">
+            <ul>
+                <li><a href="http://www.outlook.com"><img src="img/logoemail.png" alt="ícone email" style="height: 50px;width: 50px;"></a></li>
+                <li><a href="http://www.facebook.com"><img src="img/facelogo.png" alt="ícone facebook" style="height: 50px;width: 50px;"></a></li>
+                <li><a href="http://www.instagram.com"><img src="img/instalo2-removebg-preview.png" alt="ícone instagram" style="height: 50px;width: 50px;"></a></li>
+                <li><a href="http://www.twitter.com"><img src="img/logotwitter.png" alt="ícone twitter" style="height: 50px;width: 50px;"></a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="menu-principal">
+        <div class="menu">
+            <ul>
+                <li><a href="">Página Inicial</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Programação</a></li>
+                <li><a href="">Local</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <div class="busca">
+                <input placeholder="O que você procura?" type="text" >
+            </div>
+        </div>
+    </div>
+</body>
+</html>
