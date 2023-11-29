@@ -5,36 +5,323 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JogEduc</title>
     <link rel="icon" type="image/x-icon" href="img/logo-semfundo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Send+Flowers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@1,300&family=Send+Flowers&display=swap" rel="stylesheet">
     <style>
+    
+
+
+        html {
+          background-color: rgb(166, 229, 254)
+        }
+        
         body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; 
+            overflow-y: scroll;
+        }
+
+        .ocupacao {
             width: 100%;
-            height: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            padding: 0 20px; 
+            margin: 0 auto;
         }
-        main {
-            width:980px;
+
+        .ocupacao {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: bisque;
+            height: 60px;
+           
+        }
+
+        .logo {
+            width: 75%;
+           
+            
+        }
+
+        .redes-sociais {
+            width: 25%;
+            text-align: right;
+            
+        }
+
+
+        .redes-sociais ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .redes-sociais ul li {
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .menu-principal {
+            width: 100%;
+            box-sizing: border-box;
+            background-color:blue;
+            padding: 10px;
+            height: 50px;
+        }
+
+        .menu {
+            height: 90px;*/
+            width: 60%;
             float: left;
-            position: relative;
+            color: blue;
+            background-position: 100%;
         }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            margin-right: 10px;
+            
+        }
+        .menu ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            padding-left: 5px;
+            margin-left: 75px;
+            color: rgb(240, 240, 126);
+           
+        }
+        .menu ul li:hover {
+            border-bottom:2px solid rgb(240, 240, 126);
+            height: 35px;
+        }
+        .menu ul li a:hover {
+            color: rgb(240, 240, 126);
+        }
+
+        .search {
+            width: 40%;
+            float: right;
+            text-align: center;
+            height: 30px;
+            
+        }
+
+        .busca input {
+            width: 70%; 
+            height: 30px;
+            padding-left: 30px;
+            background-image: url('/img/searchicon.png');
+            background-repeat: no-repeat;
+            background-size: 20px;
+            background-position: 100%;
+            border: 2px solid gray;
+        }
+        .busca  input::placeholder{
+            font-size: 17px;
+            text-align: justify;
+        }
+       /* .conteudo {
+            padding: 50px;
+            text-align: center;
+            background-image: url('/img/aprenderbrincando.jpg'); 
+            background-size: content;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: blue;
+            width:100%;
+            height:50vw;
+            font-family: 'Anton', sans-serif;
+            opacity: 0.5;
+             }*/
+             .conteudo {
+               position: relative; /* Adicione position relative */
+               padding: 50px;
+               text-align: center;
+               color: blue;
+               width: 100%;
+               height: 50vw;
+               font-family: 'Anton', sans-serif;
+             }
+
+           .conteudo::before {
+               content: ''; /* Conteúdo vazio é necessário para o pseudo-elemento ser gerado */
+               position: absolute;
+               top: 0;
+               left: 0;
+               width: 100%;
+               height: 100%;
+               background-image: url('/img/aprenderbrincando.jpg');
+               background-size: cover;
+               background-position: center;
+               background-repeat: no-repeat;
+               opacity: 0.6; /* Opacidade da imagem de fundo */
+               z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+            }
+
+             .conteudo h1 {
+                /* z-index: 1;*/
+                 margin-bottom: 20px;
+                 padding-top: 50px;
+                 padding-bottom: 80px;
+            } 
+            .conteudo h2 {
+                padding-bottom: 90px;
+            }
+          
+              .conteudo1 {
+               margin-top: 10px;
+               text-align: center;
+               border-left: 13px solid rgb(0, 183, 255) ;
+               background-color: #72C2F5;
+               
+            }
+               
+              
+               
+
+
+    button {
+    padding: 10px 20px; /* Espaçamento interno do botão (topo/baixo, esquerda/direita) */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    font-weight: bold; /* Peso da fonte (negrito) */
+    text-transform: uppercase; /* Transforma o texto para maiúsculas */
+    color:blue; /* Cor do texto do botão */
+    background-color: whitesmoke; /* Cor de fundo do botão */
+    border: 2px solid gray; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    margin-bottom: 30px;
+    
+   
+
+}
+.leia a {
+    text-decoration: none;
+    color: blue;
+}
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .image-container {
+            text-align: justify;
+            margin-right: 15px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .caption {
+            margin-top: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: large;
+        }
+        
+
+
+
+
+
+
+           
+            
+            
+       
+
     </style>
 </head>
 <body>
-    <header class="principal">
-        <main>
+    <header class="ocupacao">
         <div class="logo">
-            <img src="img/logo.jpeg" style="height: 60px; width: 60px;">
+            <img src="img/logo-semfundo.png" style="height: 60px; width: 60px;">
         </div>
         <div class="redes-sociais">
             <ul>
-                <li><a><img src="img/logoemail.png"></li></a>
+                <li><a href="http://www.outlook.com"><img src="img/logoemail1.png" alt="ícone email" style="height: 50px;width: 50px;"></a></li>
+                <li><a href="http://www.facebook.com"><img src="img/facelogo1.png" alt="ícone facebook" style="height: 50px;width: 50px;"></a></li>
+                <li><a href="http://www.instagram.com"><img src="img/instalogo1.png" alt="ícone instagram" style="height: 50px;width: 50px;"></a></li>
+                <li><a href="http://www.twitter.com"><img src="img/logotwitter1.png" alt="ícone twitter" style="height: 50px;width: 50px;"></a></li>
             </ul>
         </div>
-        </main>
-
-
-
-
-       
     </header>
+    <div class="menu-principal">
+        <div class="menu">
+            <ul>
+                <li><a href="">Página Inicial</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Programação</a></li>
+                <li><a href="">Local</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <div class="busca">
+                <input placeholder="O que você procura?" type="text" >
+            </div>
+        </div>
+    </div>
+    <div class="conteudo">
+      <h1 style="font-size:70px">Que tal seu filho aprender brincando?</h1>
+       <h2 style="font-size: 55px">Jogos Educacionais</h2>
+        <h3 style="font-size: 45px">Educação e Tecnologia:Aprender também pode ser divertido!</h3>
+    </div>
+    <div class="conteudo1">
+        <h1 style="font-size: 40px">Pesquisas apontam os benefícios da tecnologia na alfabetização escolar</h1>
+        <button class="leia"><a target="_blank" href='https://www.nucleodoconhecimento.com.br/educacao/tecnologia-para-alfabetizar'>Leia Mais</a> </button>
+    </div>
+    <div class="texto-imagem">
+
+    </div>
+    <div class="container">
+        <div class="image-container">
+            <img src="img/saladeaula.jpg" alt="Sala de Aula Tradicional">
+            <p class="caption">É na sala de aula que muitas crianças passam a maior parte do seu dia...</p>
+        </div>
+    
+        <div class="image-container">
+            <img src="img/professora.jpg" alt="Professora">
+            <p class="caption">Somente os métodos tradicionais não são o suficiente para prender sua atenção...
+            </p>
+        </div>
+    
+        <div class="image-container">
+            <img src="img/criança.jpg" alt="Criança com computador">
+            <p class="caption">Uma geração que nasceu em uma era tecnológica não pode ficar à deriva quando o assunto é tecnologia.</p>
+        </div>
+    </div>
+    
+  
+
+
+
+    
+    
+    
+   
+    
+
+    
+    
     
 </body>
 </html>
+
+
+
