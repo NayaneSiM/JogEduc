@@ -185,7 +185,9 @@
                margin-top: 10px;
                text-align: center;
                border-left: 13px solid rgb(0, 183, 255) ;
-               background-color: #72C2F5;
+            ;
+               font-family: 'Anton', sans-serif;
+               color: rgb(69, 93, 166);
                
             }
                
@@ -234,7 +236,87 @@
             font-family: 'Montserrat', sans-serif;
             font-size: large;
         }
+        .frase {
+            font-size: 30px;
+            font-family: 'Anton', sans-serif;
+            text-align: center;
+            color: rgb(69, 93, 166);
+            margin-top: 150px;
+            border-left: solid 13px rgb(0, 183, 255);
+        }
+
+        .sobre h1 {
+        font-family: 'Anton', sans-serif;
+        font-size: 60px;
+        text-align: center;
+        color: blue;
+        margin-top: 60px;
         
+        
+          }
+        .sobre h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: rgb(69, 93, 166);
+        text-align: center;
+
+
+        }
+
+
+    .sobre h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center ;
+    color: rgb(69, 93, 166);
+    margin: 50px;
+    }
+
+    .Programa h1 {
+        font-family:'Anton', sans-serif;
+        font-size: 60px;
+        text-align: center;
+        color: blue;
+        margin-top: 60px;
+
+    }
+
+    .Programa p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(69, 93, 166);
+    text-align: center;
+    font-weight:bold;
+    font-size: large;
+    }
+
+    .Programa h2 {
+    font-family: 'Anton', sans-serif;
+    color: rgb(69, 93, 166);
+    text-align: center;
+
+    }
+    
+    .Programa ul li {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(69, 93, 166);
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    font-weight:bold;
+    font-size: large;
+    }
+    
+
+  
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -306,7 +388,104 @@
             <p class="caption">Uma geração que nasceu em uma era tecnológica não pode ficar à deriva quando o assunto é tecnologia.</p>
         </div>
     </div>
+    <div class="frase">
+        <p>"A introdução dos jogos digitais de finalidade educativa na etapa de alfabetização beneficia a ação pedagógica e facilita o processo de ensino-aprendizagem e socialização."</p>
+    </div>
     
+<div class="sobre">
+        <h1>Sobre</h1>
+        <h2>Título da Palestra: "Explorando o Saber: Jogos Educacionais e Alfabetização Infantil"<h2></h2>
+
+<h3>No idílico cenário do Parque do Ibirapuera, uma palestra inspiradora está prestes a ocorrer, promovendo uma visão inovadora sobre o aprendizado infantil. "Explorando o Saber" será uma jornada fascinante pelo mundo dos jogos educacionais e seus impactos positivos na educação e alfabetização de crianças.
+
+O palestrante, um renomado especialista em pedagogia lúdica, compartilhará insights valiosos sobre como os jogos podem transformar a experiência de aprendizado das crianças. A palestra destacará não apenas a diversão inerente aos jogos, mas também como eles se tornaram ferramentas poderosas no desenvolvimento cognitivo, social e emocional dos pequenos.
+
+Ao explorar casos práticos e pesquisas recentes, a palestra abordará os benefícios específicos dos jogos educacionais na alfabetização infantil. Os participantes serão levados a entender como essas atividades lúdicas podem estimular o interesse pela leitura, melhorar habilidades linguísticas e proporcionar um ambiente de aprendizado envolvente.
+
+O Parque do Ibirapuera, com sua atmosfera vibrante e acolhedora, proporcionará o ambiente perfeito para a reflexão sobre o potencial transformador dos jogos educacionais. Ao final da palestra, os presentes terão uma compreensão mais profunda de como integrar jogos de maneira eficaz no processo educacional, proporcionando uma base sólida para o futuro acadêmico das crianças.
+
+Prepare-se para uma tarde enriquecedora de aprendizado e inspiração no coração de São Paulo, onde a educação e a diversão se encontram para moldar o futuro brilhante das próximas gerações.
+        </h3>
+</div>
+
+<div class="Programa">
+     <h1>Programação</h1>
+    <p>"Explorando o Saber: Jogos Educacionais e Alfabetização Infantil"</p>
+    <p>Data e Hora: 16 de Dezembro de 2023, às 15:00</p>
+    <p>Local: Auditório Central, Centro de Convenções da Cidade</p>
+       
+    <section>
+        <h2>Descrição</h2>
+        <p>Em um cenário dinâmico e empolgante, convidamos você para a palestra "Desbravando o Futuro", uma jornada envolvente sobre o papel transformador dos jogos educacionais no processo de aprendizagem das crianças.</p>
+    </section>
+
+    <section>
+        <h2>Agenda</h2>
+        <ul>
+            <li><strong>Abertura (15 minutos)</strong>
+                <ul>
+                    <li>Registro e boas-vindas</li>
+                    <li>Breve introdução sobre a importância da educação lúdica</li>
+                </ul>
+            </li>
+            <li><strong>Jogos como Ferramentas de Aprendizagem (30 minutos)</strong>
+                <ul>
+                    <li>Exploração do impacto dos jogos educacionais no desenvolvimento cognitivo e social</li>
+                    <li>Estudos de caso de sucesso e lições aprendidas</li>
+                </ul>
+            </li>
+            <li><strong>Design Inovador para Educação (20 minutos)</strong>
+                <ul>
+                    <li>Como criar jogos educacionais envolventes</li>
+                    <li>Princípios de design centrado na criança</li>
+                </ul>
+            </li>
+            <li><strong>Jogos e Alfabetização (25 minutos)</strong>
+                <ul>
+                    <li>Estratégias para melhorar a alfabetização por meio de jogos</li>
+                    <li>Demonstração de jogos interativos</li>
+                </ul>
+            </li>
+            <li><strong>Sessão de Perguntas e Respostas (15 minutos)</strong>
+                <ul>
+                    <li>Oportunidade para a plateia interagir e esclarecer dúvidas</li>
+                </ul>
+            </li>
+            <li><strong>Encerramento (15 minutos)</strong>
+                <ul>
+                    <li>Reflexão sobre o potencial futuro dos jogos educacionais</li>
+                    <li>Agradecimentos e convite para networking</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Palestrante</h2>
+        <p><strong>Dr. Ana Silva</strong><br>Especialista em Educação Infantil e Tecnologia Educacional</p>
+    </section>
+
+    <section>
+        <h2>Inscrições</h2>
+        <p>As inscrições são gratuitas e podem ser feitas online através do nosso site. Vagas limitadas! Garanta seu lugar e participe desta experiência educacional única.</p>
+    </section>
+
+    <section>
+        <h2>Objetivo</h2>
+        <p>Esta palestra visa inspirar educadores, pais e profissionais da área da educação a integrar jogos educacionais de forma eficaz no processo de aprendizagem, promovendo o desenvolvimento holístico das crianças e preparando-as para os desafios do futuro.</p>
+    </section>
+
+    <section>
+        <h2>Nota</h2>
+        <p>Ao término da palestra, os participantes receberão um kit digital com recursos e informações adicionais para implementar práticas inovadoras no ambiente educacional.</p>
+    </section>
+
+    <section>
+        <h2>Venha fazer parte deste momento único de aprendizado e descoberta!</h2>
+    </section>
+
+
+</div>
   
 
 
