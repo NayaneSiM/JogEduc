@@ -11,10 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@1,300&family=Send+Flowers&display=swap" rel="stylesheet">
-    <style>
     
-
-
+    <style>
+        
         html {
           background-color: rgb(166, 229, 254)
         }
@@ -133,21 +132,9 @@
             font-size: 17px;
             text-align: justify;
         }
-       /* .conteudo {
-            padding: 50px;
-            text-align: center;
-            background-image: url('/img/aprenderbrincando.jpg'); 
-            background-size: content;
-            background-position: center;
-            background-repeat: no-repeat;
-            color: blue;
-            width:100%;
-            height:50vw;
-            font-family: 'Anton', sans-serif;
-            opacity: 0.5;
-             }*/
+       
              .conteudo {
-               position: relative; /* Adicione position relative */
+               position: relative; 
                padding: 50px;
                text-align: center;
                color: blue;
@@ -157,7 +144,7 @@
              }
 
            .conteudo::before {
-               content: ''; /* Conteúdo vazio é necessário para o pseudo-elemento ser gerado */
+               content: ''; 
                position: absolute;
                top: 0;
                left: 0;
@@ -167,12 +154,12 @@
                background-size: cover;
                background-position: center;
                background-repeat: no-repeat;
-               opacity: 0.6; /* Opacidade da imagem de fundo */
-               z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+               opacity: 0.6; 
+               z-index: -1; 
             }
 
              .conteudo h1 {
-                /* z-index: 1;*/
+                
                  margin-bottom: 20px;
                  padding-top: 50px;
                  padding-bottom: 80px;
@@ -184,32 +171,25 @@
               .conteudo1 {
                margin-top: 10px;
                text-align: center;
-               border-left: 13px solid rgb(0, 183, 255) ;
-            ;
+               border-left: 13px solid rgb(0, 183, 255);
                font-family: 'Anton', sans-serif;
                color: rgb(69, 93, 166);
                
-            }
-               
+            }               
               
-               
-
-
     button {
-    padding: 10px 20px; /* Espaçamento interno do botão (topo/baixo, esquerda/direita) */
-    font-size: 16px; /* Tamanho da fonte do botão */
-    font-weight: bold; /* Peso da fonte (negrito) */
-    text-transform: uppercase; /* Transforma o texto para maiúsculas */
-    color:blue; /* Cor do texto do botão */
-    background-color: whitesmoke; /* Cor de fundo do botão */
-    border: 2px solid gray; /* Remove a borda padrão do botão */
-    border-radius: 5px; /* Borda arredondada */
-    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    color:blue; 
+    background-color: whitesmoke;
+    border: 2px solid gray;
+    border-radius: 5px; 
+    cursor: pointer; 
     margin-bottom: 30px;
-    
-   
-
 }
+    
 .leia a {
     text-decoration: none;
     color: blue;
@@ -259,10 +239,7 @@
         font-weight: bold;
         color: rgb(69, 93, 166);
         text-align: center;
-
-
-        }
-
+    }
 
     .sobre h3 {
     font-family: 'Montserrat', sans-serif;
@@ -270,6 +247,20 @@
     color: rgb(69, 93, 166);
     margin: 50px;
     }
+    .video-container {
+            margin: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top:40px;
+            padding-right: 320px;
+            padding-bottom: 40px;
+        }
+
+        .video iframe {
+            width: 200%; 
+        }
+ 
 
     .Programa h1 {
         font-family:'Anton', sans-serif;
@@ -305,28 +296,153 @@
     font-size: large;
     }
     
+    .localização h1 {
+    font-family: 'Anton', sans-serif;
+        font-size: 60px;
+        text-align: center;
+        color: blue;
+        margin-top: 60px;
+        }
 
-  
+    .localização h2 {
+     font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: rgb(69, 93, 166);
+        text-align: center;
 
+    }
 
+    .localização h3 {
+     font-family: 'Montserrat', sans-serif;
+    text-align: center ;
+    color: rgb(69, 93, 166);
+    margin: 50px;
+    }
 
+    .container2 {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; 
+            
+        }
 
+        .image-container2 {
+            margin: 0;
+        }
 
+        .image-container2 img {
+            width: 100%; 
+            height: auto;
+               }
 
+             .mapa {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 35%; 
+            margin: 100px;
+        }
 
+        .mapa iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            }
+            
+        .form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+        }
 
-
-
-
-
-
-
-
-
+        .container {
            
-            
-            
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        
+
+        .button2 {
+            padding: 10px ; 
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase; 
+            color:blue; 
+            background-color: whitesmoke; 
+            border: 2px solid gray; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            margin-bottom: 30px;
+            text-align: center;
+            margin-top:10px;
+        }
        
+        .form-container {
+            max-width: 400px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 10px gray;
+            padding: 20px;
+            text-align: center;
+            margin-left: 450px;
+            font-family: 'Anton', sans-serif;
+           color: blue;
+           display:flex;
+           flex-direction: column;
+           
+        }
+
+        .button2 {
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: blue;
+            background-color: whitesmoke;
+            border: 2px solid gray;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        form h2 {
+            font-family: 'Anton', sans-serif;
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-display: center;
+        }
+
+        form div {
+            margin: 20px;
+        }
+
+        form input {
+            outline: unset;
+            border: 1px solid gray;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        form label {
+            margin: 10px;
+            text-align: center;
+        }
+
+         footer {
+            text-align: center;
+            font-size: 18px;
+            color:rgb(69, 93, 166);
+            margin-top: 160px;
+            background-color: rgb(0, 183, 255);
+        }
 
     </style>
 </head>
@@ -360,7 +476,7 @@
         </div>
     </div>
     <div class="conteudo">
-      <h1 style="font-size:70px">Que tal seu filho aprender brincando?</h1>
+      <h1 style="font-size: 70px">Que tal seu filho aprender brincando?</h1>
        <h2 style="font-size: 55px">Jogos Educacionais</h2>
         <h3 style="font-size: 45px">Educação e Tecnologia:Aprender também pode ser divertido!</h3>
     </div>
@@ -406,6 +522,11 @@ O Parque do Ibirapuera, com sua atmosfera vibrante e acolhedora, proporcionará 
 
 Prepare-se para uma tarde enriquecedora de aprendizado e inspiração no coração de São Paulo, onde a educação e a diversão se encontram para moldar o futuro brilhante das próximas gerações.
         </h3>
+</div>
+<div class="video-container">
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s_LDCSt7kV0?si=2n6-ELMup18fvgmn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 </div>
 
 <div class="Programa">
@@ -483,24 +604,57 @@ Prepare-se para uma tarde enriquecedora de aprendizado e inspiração no coraç�
     <section>
         <h2>Venha fazer parte deste momento único de aprendizado e descoberta!</h2>
     </section>
+        </div>
+        <div class="localização">
+        <h1>Local</h1>
+        <h2>Auditório do Ibirapuera</h2>
+        <h3>O Auditório do Ibirapuera é um espaço cultural localizado no coração de São Paulo, dentro do Parque do Ibirapuera. Com uma arquitetura moderna e confortável, é o local perfeito para eventos educacionais e culturais. Estamos ansiosos para recebê-lo neste espaço inspirador.</h3>
+    </div>
+        <div class="container2">
+        <div class="image-container2">
+           <img src="img/auditorio1.jpeg" alt="Auditório" style="width: 360;height: 360;">
+        </div>
+        <div class="container2">
+           <img src="img/auditorio2.jpeg" alt="Auditório 2">
+        </div>
+        <div class="container2">   
+           <img src="img/auditorio3.jpeg" alt="Auditório 3">
+        </div>
+         </div>
+         <div class="mapa">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.522444991459!2d-46.6565556!3d-23.585589099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59f23a460cc9%3A0x7e04e02091f62546!2sAudit%C3%B3rio%20Ibirapuera%20-%20Oscar%20Niemeyer!5e0!3m2!1spt-BR!2sbr!4v1701348885705!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
 
+         
+<div class="form-container">
+    <h2>Inscreva-se já!</h2>
+    <form>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" placeholder="Seu nome" required>
+        </div>
 
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Email" required>
+        </div>
+
+        <div>
+            <label for="phone">Telefone</label>
+            <input type="phone" name="phone" placeholder="Telefone" required>
+        </div>
+
+        <button class="button2">Enviar</button>
+    </form>
 </div>
-  
 
 
+       <footer>
+    Criado por Nayane Moraes&copy; 2023
+    </footer>
+    <div class="footer"></div>
 
-    
-    
-    
-   
-    
 
-    
-    
-    
 </body>
-</html>
-
-
-
+</html>     
+   
